@@ -22,5 +22,8 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 		- Beispiel: public abstract int Rechner(){}
 					public override int Rechner(){}
   - Polymorphie
+		- Polymorphismus ist eine Liste die Objekte von Mutter und Kind klassen hinzugefügt
+          werden können und bearbeitet werden können.
+	
 - Wie überschreibt man die Methode `virtual string ToString()`?
 
