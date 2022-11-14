@@ -28,4 +28,5 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 		  Diese Liste kann jetzt Objekte von die Klassen Mutter und Kind anehmen und bearbeiten.
 	
 - Wie überschreibt man die Methode `virtual string ToString()`?
+		- Override string TOString(){}
 
