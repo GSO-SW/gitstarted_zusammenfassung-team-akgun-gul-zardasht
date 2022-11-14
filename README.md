@@ -18,5 +18,7 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
   - abstract (Methoden)
   - virtual
   - override
+	(z)	- Mit Override überschreibt man virtual und abstract methoden einer base klasse 
   - Polymorphie
 - Wie überschreibt man die Methode `virtual string ToString()`?
+
