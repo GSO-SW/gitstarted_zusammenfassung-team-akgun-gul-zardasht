@@ -22,11 +22,11 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 		- Beispiel: public abstract int Rechner(){}
 					public override int Rechner(){}
   - Polymorphie
-		- Polymorphismus ist eine Liste die Objekte von Mutter und Kind klassen hinzugefügt
+	(z)	- Polymorphismus ist eine Liste die Objekte von Mutter und Kind klassen hinzugefügt
           werden können und bearbeitet werden können.
 		- Beispiel: Class Mutter, Class Kind, List<Mutter> mutter = new List<Mutter>();
 		  Diese Liste kann jetzt Objekte von die Klassen Mutter und Kind anehmen und bearbeiten.
 	
 - Wie überschreibt man die Methode `virtual string ToString()`?
-		- Override string TOString(){}
+	(z)	- Override string TOString(){}
 
