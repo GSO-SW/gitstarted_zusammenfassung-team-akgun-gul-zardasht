@@ -53,7 +53,7 @@ git clone [url]: 	Klonen (herunterladen) eines Repositorys, das bereits auf GitH
 git pull:			Aktualisiert Ihren aktuellen lokalen Arbeitsbranch mit allen neuen Commits aus dem entsprechenden Remote-Branch auf GitHub. git pull ist eine Kombination aus git fetch und git merge  
 
 
-*Wenn man einen lokalen Branch hat, welcher nicht auf dem Remote-Repository existiert, kann man einen Branch mit dem selben Namen auf dem Remote-Repository erstellen  *
+*Wenn man einen lokalen Branch hat, welcher nicht auf dem Remote-Repository existiert, kann man einen Branch mit dem selben Namen auf dem Remote-Repository erstellen*
 
 ## TODO2
 - Fachbegriffe OOP erklären (mit Beispielen)
