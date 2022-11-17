@@ -8,48 +8,53 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 1. Hier gehts um Teamwork: Ich erwarte häufige Commits (+ häufiges pushen/pullen )
 
 ## TODO
-- Begriffe definieren und erklären (z.B. repository, branch etc.)
-Git: ein open source, verteiltes Versionskontrollsystem
+### **- Begriffe definieren und erklären (z.B. repository, branch etc.)**
 
-GitHub: eine Plattform für das Hosting und die Zusammenarbeit an Git-Repositories
+Git: 				ein open source, verteiltes Versionskontrollsystem  
 
-Repository: Ein Repository enthält alle Dateien Ihres Projekts und den Revisionsverlauf jeder Datei.
+GitHub: 			eine Plattform für das Hosting und die Zusammenarbeit an Git-Repositories  
 
-Branch: ein leichtgewichtiger, beweglicher Zeiger auf einen Commit
+Repository: 		Ein Repository enthält alle Dateien Ihres Projekts und den Revisionsverlauf jeder Datei.  
 
-Fork: eine Kopie eines Repositorys auf GitHub, das einem anderen Benutzer gehört
+Branch: 			ein leichtgewichtiger, beweglicher Zeiger auf einen Commit  
 
-Remote: ein gemeinsames Repository auf z.B. GitHub, das alle Teammitglieder zum Austausch ihrer Änderungen nutzen
+Fork: 				eine Kopie eines Repositorys auf GitHub, das einem anderen Benutzer gehört  
 
-- git Befehle für die Arbeit mit lokalen Repositories (inkl. Erläuterungen)
-git init: Wandeln Sie ein vorhandenes Verzeichnis in ein Git-Repository um
+Remote: 			ein gemeinsames Repository auf z.B. GitHub, das alle Teammitglieder zum Austausch ihrer Änderungen nutzen  
 
-git add: erstellt einen Schnappschuss der Datei als Vorbereitung für die Versionierung
+### **- git Befehle für die Arbeit mit lokalen Repositories (inkl. Erläuterungen)**
 
-git commit -m "message": ein Git-Objekt, ein Schnappschuss des gesamten Repositorys, komprimiert in einer SHA / speichert Datei-Versionen dauerhaft im Versionsverlauf auf
+`git init`: 			Wandeln Sie ein vorhandenes Verzeichnis in ein Git-Repository um  
 
-git checkout: Wechselt zum angegebenen Branch und aktualisiert das Arbeitsverzeichnis (Working directory)
+`git add`: 			erstellt einen Schnappschuss der Datei als Vorbereitung für die Versionierung  
 
-git log: listet den Versionsverlauf für den aktuellen Branch auf
+`git commit -m "message"`:	ein Git-Objekt, ein Schnappschuss des gesamten Repositorys, komprimiert in einer SHA / speichert Datei-Versionen dauerhaft im Versionsverlauf auf  
 
-git status: zeigt den Zustand des working directory und der Staging-area an
+`git checkout`:		Wechselt zum angegebenen Branch und aktualisiert das Arbeitsverzeichnis (Working directory)  
 
-git HEAD: Der HEAD-Zeiger steht für Ihr aktuelles Arbeitsverzeichnis und kann bei Verwendung von Git Checkout in verschiedene Branches, Tags oder Commits verschoben werden.
+`git log`: 			listet den Versionsverlauf für den aktuellen Branch auf  
 
-git reset: Macht alle Commits nach commit rückgängig und behält Änderungen lokal bei
+`git status`: 		zeigt den Zustand des working directory und der Staging-area an  
 
-- git Befehle für die Arbeit mit entfernten Repositories (inkl. Erläuterungen)
-git fetch: Lädt den gesamten Verlauf von den Remote-Tracking-Branches herunter
+`git HEAD`: 				Der HEAD-Zeiger steht für Ihr aktuelles Arbeitsverzeichnis und kann bei Verwendung von Git Checkout in verschiedene Branches, Tags oder Commits verschoben werden.  
 
-git merge: Kombiniert den Remote-Tracking-Branch mit dem aktuellen lokalen Branch
+`git reset`: 			Macht alle Commits nach commit rückgängig und behält Änderungen lokal bei  
 
-git push: Lädt alle lokalen Branch-Commits auf GitHub hoch
+### **- git Befehle für die Arbeit mit entfernten Repositories (inkl. Erläuterungen)**
 
-git clone [url]: Klonen (herunterladen) eines Repositorys, das bereits auf GitHub vorhanden ist, einschließlich aller Dateien, Branches und Commits
+`git fetch`: 			Lädt den gesamten Verlauf von den Remote-Tracking-Branches herunter  
 
-git pull: Aktualisiert Ihren aktuellen lokalen Arbeitsbranch mit allen neuen Commits aus dem entsprechenden Remote-Branch auf GitHub. git pull ist eine Kombination aus git fetch und git merge
+`git merge`:			Kombiniert den Remote-Tracking-Branch mit dem aktuellen lokalen Branch  
 
-Wenn man einen lokalen Branch hat, welcher nicht auf dem Remote-Repository existiert, kann man einen Branch mit dem selben Namen auf dem Remote-Repository erstellen
+`git push`: 			Lädt alle lokalen Branch-Commits auf GitHub hoch  
+
+`git clone [url]`: 	Klonen (herunterladen) eines Repositorys, das bereits auf GitHub vorhanden ist, einschließlich aller Dateien, Branches und Commits  
+
+`git pull`:			Aktualisiert Ihren aktuellen lokalen Arbeitsbranch mit allen neuen Commits aus dem entsprechenden Remote-Branch auf GitHub. git pull ist eine Kombination aus git fetch und git merge  
+
+
+*Wenn man einen lokalen Branch hat, welcher nicht auf dem Remote-Repository existiert, kann man einen Branch mit dem selben Namen auf dem Remote-Repository erstellen*
+
 ## TODO2
 - Fachbegriffe OOP erklären (mit Beispielen)
 
@@ -81,18 +86,10 @@ public virtual double Area()
 }
 
   - override
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-	(z)	- Mit Override überschreibt man virtual und abstract methoden einer base klasse 
-		- Beispiel: public abstract int woRechner(){}
-					public override int Rechner(){}
->>>>>>> todo2
-=======
 	- Mit Override überschreibt man virtual und abstract methoden einer base klasse 
 	- Beispiel: public abstract int Rechner(){}
-					public override int Rechner(){}
->>>>>>> todo1Z
+					public override int Rechner(){}  
+					
   - Polymorphie
 	- Polymorphismus ist eine Liste die Objekte von Mutter und Kind klassen hinzugefügt
       werden können und bearbeitet werden können.
@@ -100,5 +97,3 @@ public virtual double Area()
 	  Diese Liste kann jetzt Objekte von die Klassen Mutter und Kind anehmen und bearbeiten.
 - Wie überschreibt man die Methode `virtual string ToString()`?
 	- Override string TOString(){}
-
-
