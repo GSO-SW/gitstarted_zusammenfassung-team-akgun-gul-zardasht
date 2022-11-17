@@ -81,18 +81,9 @@ public virtual double Area()
 }
 
   - override
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-	(z)	- Mit Override überschreibt man virtual und abstract methoden einer base klasse 
-		- Beispiel: public abstract int woRechner(){}
-					public override int Rechner(){}
->>>>>>> todo2
-=======
 	- Mit Override überschreibt man virtual und abstract methoden einer base klasse 
 	- Beispiel: public abstract int Rechner(){}
-					public override int Rechner(){}
->>>>>>> todo1Z
+		    public override int Rechner(){}
   - Polymorphie
 	- Polymorphismus ist eine Liste die Objekte von Mutter und Kind klassen hinzugefügt
       werden können und bearbeitet werden können.
