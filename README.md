@@ -57,10 +57,41 @@ Remote: 			ein gemeinsames Repository auf z.B. GitHub, das alle Teammitglieder z
 
 ## TODO2
 - Fachbegriffe OOP erklären (mit Beispielen)
+
   - abstract (Klassen)
+Man kann kein Objekt einer abstract Klasse erstellen. Man nutzt sie zum vererben.
+Zum Beispiel die Klasse Säugetier: Alle Säugetiere haben folgendes gemeinsam:
+Alle stillen mit Milch, Sie atmen alle Sauerstoff und gebähren ihre Kinder. 
+
+abstract class Säugetier
+{
+  #Code
+}
+
   - abstract (Methoden)
-  - virtual
+Êine abstract Methode ist nicht instanziierbar. Erbende Klassen müssen die abstract
+Methode überschreiben. Die abstract Klasse darf in der Mutterklasse keinen Methodenrumpf
+haben.
+Kann mit Override überschrieben werden.
+
+public abstract int getArea();
+
+ - virtual
+Eine virtual Methode kann in der Kinderklasse überschrieben werden.
+Kann mit override überschrieben werden.
+
+public virtual double Area()
+{
+    return x * y;
+}
+
   - override
+<<<<<<< HEAD
+=======
+	(z)	- Mit Override überschreibt man virtual und abstract methoden einer base klasse 
+		- Beispiel: public abstract int woRechner(){}
+					public override int Rechner(){}
+>>>>>>> todo2
   - Polymorphie
 - Wie überschreibt man die Methode `virtual string ToString()`?
 
