@@ -8,7 +8,7 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 1. Hier gehts um Teamwork: Ich erwarte häufige Commits (+ häufiges pushen/pullen )
 
 ## TODO
-# **- Begriffe definieren und erklären (z.B. repository, branch etc.)**
+### **- Begriffe definieren und erklären (z.B. repository, branch etc.)**
 
 Git: 				ein open source, verteiltes Versionskontrollsystem  
 
@@ -22,7 +22,7 @@ Fork: 				eine Kopie eines Repositorys auf GitHub, das einem anderen Benutzer ge
 
 Remote: 			ein gemeinsames Repository auf z.B. GitHub, das alle Teammitglieder zum Austausch ihrer Änderungen nutzen  
 
-# **- git Befehle für die Arbeit mit lokalen Repositories (inkl. Erläuterungen)**
+### **- git Befehle für die Arbeit mit lokalen Repositories (inkl. Erläuterungen)**
 
 git init: 			Wandeln Sie ein vorhandenes Verzeichnis in ein Git-Repository um  
 
@@ -40,7 +40,7 @@ HEAD: 				Der HEAD-Zeiger steht für Ihr aktuelles Arbeitsverzeichnis und kann b
 
 git reset: 			Macht alle Commits nach [commit] rückgängig und behält Änderungen lokal bei  
 
-# **- git Befehle für die Arbeit mit entfernten Repositories (inkl. Erläuterungen)**
+### **- git Befehle für die Arbeit mit entfernten Repositories (inkl. Erläuterungen)**
 
 git fetch: 			Lädt den gesamten Verlauf von den Remote-Tracking-Branches herunter  
 
