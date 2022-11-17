@@ -18,6 +18,8 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
   - virtual
   - override
 	- Mit Override überschreibt man virtual und abstract methoden einer base klasse 
+	- Beispiel: public abstract int Rechner(){}
+					public override int Rechner(){}
   - Polymorphie
 - Wie überschreibt man die Methode `virtual string ToString()`?
 
