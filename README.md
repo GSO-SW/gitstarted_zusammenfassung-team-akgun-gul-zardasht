@@ -24,33 +24,33 @@ Remote: 			ein gemeinsames Repository auf z.B. GitHub, das alle Teammitglieder z
 
 ### **- git Befehle für die Arbeit mit lokalen Repositories (inkl. Erläuterungen)**
 
-git init: 			Wandeln Sie ein vorhandenes Verzeichnis in ein Git-Repository um  
+`git init`: 			Wandeln Sie ein vorhandenes Verzeichnis in ein Git-Repository um  
 
-git add: 			erstellt einen Schnappschuss der Datei als Vorbereitung für die Versionierung  
+`git add`: 			erstellt einen Schnappschuss der Datei als Vorbereitung für die Versionierung  
 
-git commit -m "x":	ein Git-Objekt, ein Schnappschuss des gesamten Repositorys, komprimiert in einer SHA / speichert Datei-Versionen dauerhaft im Versionsverlauf auf  
+`git commit -m "message"`:	ein Git-Objekt, ein Schnappschuss des gesamten Repositorys, komprimiert in einer SHA / speichert Datei-Versionen dauerhaft im Versionsverlauf auf  
 
-git checkout:		Wechselt zum angegebenen Branch und aktualisiert das Arbeitsverzeichnis (Working directory)  
+`git checkout`:		Wechselt zum angegebenen Branch und aktualisiert das Arbeitsverzeichnis (Working directory)  
 
-git log: 			listet den Versionsverlauf für den aktuellen Branch auf  
+`git log`: 			listet den Versionsverlauf für den aktuellen Branch auf  
 
-git status: 		zeigt den Zustand des working directory und der Staging-area an  
+`git status`: 		zeigt den Zustand des working directory und der Staging-area an  
 
-HEAD: 				Der HEAD-Zeiger steht für Ihr aktuelles Arbeitsverzeichnis und kann bei Verwendung von Git Checkout in verschiedene Branches, Tags oder Commits verschoben werden.  
+`git HEAD`: 				Der HEAD-Zeiger steht für Ihr aktuelles Arbeitsverzeichnis und kann bei Verwendung von Git Checkout in verschiedene Branches, Tags oder Commits verschoben werden.  
 
-git reset: 			Macht alle Commits nach [commit] rückgängig und behält Änderungen lokal bei  
+`git reset`: 			Macht alle Commits nach commit rückgängig und behält Änderungen lokal bei  
 
 ### **- git Befehle für die Arbeit mit entfernten Repositories (inkl. Erläuterungen)**
 
-git fetch: 			Lädt den gesamten Verlauf von den Remote-Tracking-Branches herunter  
+`git fetch`: 			Lädt den gesamten Verlauf von den Remote-Tracking-Branches herunter  
 
-git merge:			Kombiniert den Remote-Tracking-Branch mit dem aktuellen lokalen Branch  
+`git merge`:			Kombiniert den Remote-Tracking-Branch mit dem aktuellen lokalen Branch  
 
-git push: 			Lädt alle lokalen Branch-Commits auf GitHub hoch  
+`git push`: 			Lädt alle lokalen Branch-Commits auf GitHub hoch  
 
-git clone [url]: 	Klonen (herunterladen) eines Repositorys, das bereits auf GitHub vorhanden ist, einschließlich aller Dateien, Branches und Commits  
+`git clone [url]`: 	Klonen (herunterladen) eines Repositorys, das bereits auf GitHub vorhanden ist, einschließlich aller Dateien, Branches und Commits  
 
-git pull:			Aktualisiert Ihren aktuellen lokalen Arbeitsbranch mit allen neuen Commits aus dem entsprechenden Remote-Branch auf GitHub. git pull ist eine Kombination aus git fetch und git merge  
+`git pull`:			Aktualisiert Ihren aktuellen lokalen Arbeitsbranch mit allen neuen Commits aus dem entsprechenden Remote-Branch auf GitHub. git pull ist eine Kombination aus git fetch und git merge  
 
 
 *Wenn man einen lokalen Branch hat, welcher nicht auf dem Remote-Repository existiert, kann man einen Branch mit dem selben Namen auf dem Remote-Repository erstellen*
