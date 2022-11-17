@@ -8,10 +8,9 @@ In diesem Repo soll zusammengefasst werden, was man für die Arbeit mit git und 
 1. Hier gehts um Teamwork: Ich erwarte häufige Commits (+ häufiges pushen/pullen )
 
 ## TODO
-- Begriffe definieren und erklären (z.B. repository, branch etc.)
-- git Befehle für die Arbeit mit lokalen Repositories (inkl. Erläuterungen)
-- git Befehle für die Arbeit mit entfernten Repositories (inkl. Erläuterungen)
-
+	- Begriffe definieren und erklären (z.B. repository, branch etc.)**
+	- git Befehle für die Arbeit mit lokalen Repositories (inkl. Erläuterungen)**
+	- git Befehle für die Arbeit mit entfernten Repositories (inkl. Erläuterungen)**
 ## TODO2
 - Fachbegriffe OOP erklären (mit Beispielen)
   - abstract (Klassen)
